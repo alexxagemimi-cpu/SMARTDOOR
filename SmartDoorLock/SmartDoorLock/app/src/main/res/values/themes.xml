@@ -1,0 +1,13 @@
+<resources>
+    <!--
+      This app has no AppCompat/Material Components dependency — it's pure Jetpack
+      Compose, themed by ui/theme/Theme.kt. This platform theme exists only so the
+      Activity doesn't briefly show the system default (white) window before Compose
+      draws its first frame.
+    -->
+    <style name="Theme.SmartDoorLock" parent="android:Theme.Material.NoActionBar">
+        <item name="android:windowBackground">@color/graphite_black</item>
+        <item name="android:statusBarColor">@color/graphite_black</item>
+        <item name="android:navigationBarColor">@color/graphite_black</item>
+    </style>
+</resources>

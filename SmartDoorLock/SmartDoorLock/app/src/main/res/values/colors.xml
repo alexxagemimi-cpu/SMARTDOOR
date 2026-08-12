@@ -1,0 +1,6 @@
+<resources>
+    <!-- Used only as the pre-Compose window/status/nav bar color so launch doesn't flash
+         white before the first Compose frame draws. The real palette lives in
+         ui/theme/Color.kt. -->
+    <color name="graphite_black">#121214</color>
+</resources>
